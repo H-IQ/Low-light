@@ -72,7 +72,7 @@ for idx in range(len(eval_low_data_name)):
     eval_low_data.append(eval_low_im)
     print(eval_low_im.shape)
 
-sample_dir = './results/test/'
+sample_dir = '/content/drive/My Drive/enhanced images/'
 if not os.path.isdir(sample_dir):
     os.makedirs(sample_dir)
 
@@ -112,3 +112,4 @@ for idx in range(len(eval_low_data)):
     #print(fusion2.shape)
     save_images(os.path.join(sample_dir, '%s_kindle.png' % (name)), fusion2)
     
+
