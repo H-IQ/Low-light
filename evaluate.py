@@ -61,7 +61,7 @@ else:
 ###load eval data
 eval_low_data = []
 eval_img_name =[]
-eval_low_data_name = glob('./test/*')
+eval_low_data_name = glob('./test/low/*')
 eval_low_data_name.sort()
 for idx in range(len(eval_low_data_name)):
     [_, name] = os.path.split(eval_low_data_name[idx])
