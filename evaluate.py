@@ -72,7 +72,7 @@ for idx in range(len(eval_low_data_name)):
     eval_low_data.append(eval_low_im)
     print(eval_low_im.shape)
 
-sample_dir = '/content/drive/My Drive/KinD enhanced images/'
+sample_dir = './results/test/'
 if not os.path.isdir(sample_dir):
     os.makedirs(sample_dir)
 
