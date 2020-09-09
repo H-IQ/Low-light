@@ -81,9 +81,9 @@ print("[*] Initialize model successfully...")
 ###train_data
 train_low_data = []
 train_high_data = []
-train_low_data_names = glob('./LOLdataset/our485/low/*.png') 
+train_low_data_names = glob('./train/low/*.png') 
 train_low_data_names.sort()
-train_high_data_names = glob('./LOLdataset/our485/high/*.png') 
+train_high_data_names = glob('./train/high/*.png') 
 train_high_data_names.sort()
 assert len(train_low_data_names) == len(train_high_data_names)
 print('[*] Number of training data: %d' % len(train_low_data_names))
